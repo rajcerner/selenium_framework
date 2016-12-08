@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.cerner.pctorion.platformTests.ORN_VR_PatientSearch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VRPatientSearch"/>
+        </methods>
+      </class> <!-- com.cerner.pctorion.platformTests.ORN_VR_PatientSearch -->
+      <class name="com.cerner.pctorion.utilities.Settings">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cerner.pctorion.utilities.Settings -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

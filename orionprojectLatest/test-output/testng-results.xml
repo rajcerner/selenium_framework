@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40" started-at="2016-12-07T12:58:31Z" finished-at="2016-12-07T12:58:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40" started-at="2016-12-07T12:58:31Z" finished-at="2016-12-07T12:58:31Z">
+      <class name="com.cerner.pctorion.platformTests.ORN_VR_PatientSearch">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.cerner.pctorion.platformTests.ORN_VR_PatientSearch@6f7fd0e6]" name="setup" is-config="true" duration-ms="0" started-at="2016-12-07T18:28:31Z" finished-at="2016-12-07T18:28:31Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browsername' is required by @Configuration on method setup but has not been marked @Optional or defined
+in /private/var/folders/hn/bwh1gyg54dn9b92npd5g6y_m2ngk05/T/testng-eclipse-792609469/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browsername' is required by @Configuration on method setup but has not been marked @Optional or defined
+in /private/var/folders/hn/bwh1gyg54dn9b92npd5g6y_m2ngk05/T/testng-eclipse-792609469/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:631)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="VRPatientSearch()[pri:0, instance:com.cerner.pctorion.platformTests.ORN_VR_PatientSearch@6f7fd0e6]" name="VRPatientSearch" duration-ms="5" started-at="2016-12-07T18:28:31Z" finished-at="2016-12-07T18:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VRPatientSearch -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.cerner.pctorion.platformTests.ORN_VR_PatientSearch@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-07T18:28:31Z" finished-at="2016-12-07T18:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cerner.pctorion.platformTests.ORN_VR_PatientSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
