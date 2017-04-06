@@ -42,4 +42,12 @@ public LandingPage initialLoginButton_Rajesh() {
 		return this;
 
 	}
+
+
+public LandingPage initialLoginButton_Rajesh2() {
+	
+	loginBtn.click();
+	return this;
+
+}
 }
