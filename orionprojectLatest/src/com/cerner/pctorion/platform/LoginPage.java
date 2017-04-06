@@ -49,6 +49,8 @@ public class LoginPage extends Page{
 		lgnBtn.click();
 		return this;
 //Rajesh Machine 
+		
+		//same function push
 	}
 
 }
