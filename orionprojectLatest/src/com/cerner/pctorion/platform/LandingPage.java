@@ -50,4 +50,10 @@ public LandingPage initialLoginButton_Rajesh2() {
 	return this;
 
 }
+
+public LandingPage initialLoginButton_Rajesh3() {
+	
+	loginBtn.click();
+	return this;
+}
 }
