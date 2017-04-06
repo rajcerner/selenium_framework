@@ -40,6 +40,7 @@ public class LoginPage extends Page{
 		
 		usrNameTxtBx.sendKeys(username);
 		passwdTxtBx.sendKeys(password);
+		//vijay machine test branch
 		return this;		
 	}
 
