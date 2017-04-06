@@ -14,6 +14,12 @@ public class SelectEncounterPage extends Page {
 		super(driver);
 	}	
 	
-	//Rajesh
+	public void vijay()
+	{
+		//hello
+	}
+	//Rajesh 4567890876543567890-9876543245678o9p
 
+	
+	
 }
