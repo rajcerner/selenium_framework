@@ -47,7 +47,7 @@ public class LoginPage extends Page{
 	public LoginPage clickMPlusLoginButton() {
 		lgnBtn.click();
 		return this;
-
+//Rajesh Machine 
 	}
 
 }
