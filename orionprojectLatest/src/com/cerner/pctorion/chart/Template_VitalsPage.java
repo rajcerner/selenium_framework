@@ -7,5 +7,12 @@ public class Template_VitalsPage {
 		
 		//hello
 	}
+	
+	public void Rajesh1()
+	{
+		
+		//hello Rajesh
+	}
 
+	
 }
