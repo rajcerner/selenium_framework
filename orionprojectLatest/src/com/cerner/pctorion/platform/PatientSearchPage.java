@@ -117,6 +117,20 @@ public class PatientSearchPage  extends Page{
 		return PatientNameInDemographicBanner;
 	}
 
+	public String back(){
+
+		System.out.println("inisde demo");
+		String PatientNameInDemographicBanner=patientNameInDemoBanner.getText();
+		return PatientNameInDemographicBanner;
+	}
+
+	public String left(){
+
+		System.out.println("inisde demo");
+		String PatientNameInDemographicBanner=patientNameInDemoBanner.getText();
+		return PatientNameInDemographicBanner;
+	}
+
 
 	/**
 	 * @author jk048034
