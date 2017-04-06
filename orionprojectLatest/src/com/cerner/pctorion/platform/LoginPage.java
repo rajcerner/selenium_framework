@@ -53,4 +53,12 @@ public class LoginPage extends Page{
 		//same function push
 	}
 
+	
+	public LoginPage clickMPlusLoginButtonDIRTY() {
+		lgnBtn.click();
+		return this;
+//Rajesh Machine 
+		
+		//same function push
+	}
 }
