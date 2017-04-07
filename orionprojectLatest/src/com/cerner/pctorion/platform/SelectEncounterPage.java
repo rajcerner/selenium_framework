@@ -13,13 +13,4 @@ public class SelectEncounterPage extends Page {
 	public SelectEncounterPage(WebDriver driver) {
 		super(driver);
 	}	
-	
-	public void vijay()
-	{
-		//hello
-	}
-	//Rajesh
-//WQDQWEDQ
-	
-	
 }
