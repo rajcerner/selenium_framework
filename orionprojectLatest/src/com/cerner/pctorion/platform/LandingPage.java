@@ -36,24 +36,4 @@ public class LandingPage extends Page {
 
 	}
 
-public LandingPage initialLoginButton_Rajesh() {
-		
-		loginBtn.click();
-		return this;
-
-	}
-
-
-public LandingPage initialLoginButton_Rajesh2() {
-	
-	loginBtn.click();
-	return this;
-
-}
-
-public LandingPage initialLoginButton_Rajesh3() {
-	
-	loginBtn.click();
-	return this;
-}
 }

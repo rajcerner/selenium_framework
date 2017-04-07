@@ -40,6 +40,7 @@ public class LoginPage extends Page{
 		
 		usrNameTxtBx.sendKeys(username);
 		passwdTxtBx.sendKeys(password);
+		//vijay machine test branch
 		return this;		
 	}
 
@@ -47,7 +48,17 @@ public class LoginPage extends Page{
 	public LoginPage clickMPlusLoginButton() {
 		lgnBtn.click();
 		return this;
-
+//Rajesh Machine 
+		
+		//same function push
 	}
 
+	
+	public LoginPage clickMPlusLoginButtonDIRTY() {
+		lgnBtn.click();
+		return this;
+//Rajesh Machine 
+		
+		//same function push
+	}
 }
