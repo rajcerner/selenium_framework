@@ -133,14 +133,6 @@ public class PatientSearchPage  extends Page{
 		//added in left by vijay
 	}
 
-	public String right(){
-
-		System.out.println("inisde right new right conflsdufh demo");
-	
-		String PatientNameInDemographicBanner=patientNameInDemoBanner.getText();
-		return PatientNameInDemographicBanner;
-	}
-
 	/**
 	 * @author jk048034
 	 * Method to retrieve patient name in  demographic banner
