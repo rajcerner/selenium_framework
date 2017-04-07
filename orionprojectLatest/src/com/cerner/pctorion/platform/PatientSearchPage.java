@@ -129,6 +129,8 @@ public class PatientSearchPage  extends Page{
 		System.out.println("inisde demo");
 		String PatientNameInDemographicBanner=patientNameInDemoBanner.getText();
 		return PatientNameInDemographicBanner;
+		
+		//added in left by vijay
 	}
 
 
