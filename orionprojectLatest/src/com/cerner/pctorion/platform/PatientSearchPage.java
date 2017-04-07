@@ -105,18 +105,6 @@ public class PatientSearchPage  extends Page{
 	}
 
 
-	/**
-	 * @author jk048034
-	 * Method to retrieve patient name in  demographic banner
-	 * @return String
-	 */
-	public String getPatientNameInDemographicBanner(){
-
-		System.out.println("inisde demo");
-		String PatientNameInDemographicBanner=patientNameInDemoBanner.getText();
-		return PatientNameInDemographicBanner;
-	}
-
 
 	/**
 	 * @author jk048034
