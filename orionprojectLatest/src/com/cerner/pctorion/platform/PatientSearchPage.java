@@ -135,7 +135,8 @@ public class PatientSearchPage  extends Page{
 
 	public String right(){
 
-		System.out.println("inisde right demo");
+		System.out.println("inisde right new right conflsdufh demo");
+		
 		String PatientNameInDemographicBanner=patientNameInDemoBanner.getText();
 		return PatientNameInDemographicBanner;
 	}
